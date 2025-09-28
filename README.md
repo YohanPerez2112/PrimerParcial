@@ -12,7 +12,9 @@ como componentes, plantillas y scripts. Esto facilita el mantenimiento, la escal
 - **Plantillas con `<template>`** para productos.
 - **Datos externos (products.json)** cargados con `fetch`.
 - **Web Component `<product-card>`** para mostrar productos personalizados.
-- **Buenas prácticas**: camelCase en JS, kebab-case en CSS, indentación clara.
+--**Sidebar interactivo** para filtrar productos por categoría.  
+
+- **Buenas prácticas**: camelCase en JS, kebab-case en CSS, indentación clara
 
 ## Nota
 El login y las credenciales están "quemados" en el código, por lo tanto, no es seguro para entornos reales.
