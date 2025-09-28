@@ -1,0 +1,34 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Catalogo</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="header"></div>
+  <div class="main-container">
+    <div id="sidebar"></div>
+    <main>
+      <section class="products">
+        <h2>Productos</h2>
+        <div id="productsGrid"></div>
+      </section>
+    </main>
+  </div>
+  <div id="footer"></div>
+
+  <template id="productTemplate">
+    <div class="product">
+      <img class="product-img" />
+      <h3 class="product-title"></h3>
+      <p class="product-desc"></p>
+      <span class="product-price"></span>
+    </div>
+  </template>
+
+  <script src="js/fragments.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/product-card.js"></script>
+</body>
+</html>

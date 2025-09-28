@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "title": "Blusa de moda",
+    "description": "Blusa elegante para toda ocasión.",
+    "price": 45000,
+    "image": "img/blusa.jpg",
+    "category": "mujer"
+  },
+  {
+    "id": 2,
+    "title": "Zapatos deportivos",
+    "description": "Comodidad y estilo en un solo producto.",
+    "price": 80000,
+    "image": "img/zapatos.jpg",
+    "category": "hombre"
+  },
+  {
+    "id": 3,
+    "title": "Bolso casual",
+    "description": "Perfecto para el día a día.",
+    "price": 60000,
+    "image": "img/bolso.jpg",
+    "category": "accesorios"
+  }
+  
+  
+]
