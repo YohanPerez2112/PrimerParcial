@@ -4,7 +4,7 @@
     "title": "Blusa de moda",
     "description": "Blusa elegante para toda ocasión.",
     "price": 45000,
-    "image": "img/blusa.jpg",
+    "image": "data/Blusa de moda.jpg",
     "category": "mujer"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Zapatos deportivos",
     "description": "Comodidad y estilo en un solo producto.",
     "price": 80000,
-    "image": "img/zapatos.jpg",
+    "image": "data/tenis.jpeg",
     "category": "hombre"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Bolso casual",
     "description": "Perfecto para el día a día.",
     "price": 60000,
-    "image": "img/bolso.jpg",
+    "image": "data/bolso.jpeg",
     "category": "accesorios"
   }
   
