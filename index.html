@@ -1,48 +1,51 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <title>Catalogo</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="data/logo.png">
 </head>
 <body>
-  <div id="header"></div>
+  <div id="header">
+    <div class="header-container">
+      <div class="logo">Mi Catálogo</div>
+      
+      <nav class="main-menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#categorias">Categorías</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      
+      <div class="search-bar">
+        <input type="text" placeholder="Buscar productos...">
+      </div>
+    </div>
+  </div>
+
   <div class="main-container">
     <div id="sidebar"></div>
     <main>
-     <main>
-  <section class="products">
-    <h2>Productos</h2>
-    <div id="productsGrid"></div>
-  </section>
-  
-<button id="toggleCartBtn" class="cart-toggle">🛒 Ver Carrito</button>
-
-
-<aside id="cartSidebar" class="cart-sidebar">
-  <h2>🛒 Carrito</h2>
-  <ul id="cartItems"></ul>
-  <p><strong>Total:</strong> $<span id="cartTotal">0</span></p>
-  <button id="closeCartBtn" class="close-cart">Cerrar</button>
-</aside>
-
-
-</main>
-
+      <section class="products">
+        <h2>Productos</h2>
+        <div id="productsGrid"></div>
+      </section>
     </main>
   </div>
-  <div id="footer"></div>
+  
+  <div id="footer">
+    <p>&copy; 2024 Mi Catálogo. Todos los derechos reservados.</p>
+  </div>
 
   <template id="productTemplate">
-  <div class="product">
-    <img class="product-img" />
-    <h3 class="product-title"></h3>
-    <p class="product-desc"></p>
-    <span class="product-price"></span><br>
-    <button class="add-cart-btn">Añadir al carrito</button>
-  </div>
-</template>
-
+    <div class="product">
+      <img class="product-img" />
+      <h3 class="product-title"></h3>
+      <p class="product-desc"></p>
+      <span class="product-price"></span>
+    </div>
+  </template>
 
   <script src="js/fragments.js"></script>
   <script src="js/main.js"></script>
