@@ -1,0 +1,72 @@
+/* Botón de carrito */
+.cart-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  z-index: 1001;
+}
+.cart-toggle:hover {
+  background: #0056b3;
+}
+
+/* Sidebar carrito */
+.cart-sidebar {
+  position: fixed;
+  top: 0;
+  right: -400px; /* oculto al inicio */
+  width: 350px;
+  height: 100%;
+  background: #fff;
+  border-left: 2px solid #ddd;
+  box-shadow: -2px 0 8px rgba(0,0,0,0.2);
+  padding: 20px;
+  transition: right 0.3s ease-in-out;
+  z-index: 1000;
+}
+.cart-sidebar.active {
+  right: 0; /* aparece */
+}
+
+.cart-sidebar h2 {
+  margin-top: 0;
+}
+
+.cart-sidebar ul {
+  list-style: none;
+  padding: 0;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.cart-sidebar li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.cart-sidebar .qty {
+  background: #eee;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+
+.close-cart {
+  background: red;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.close-cart:hover {
+  background: darkred;
+}

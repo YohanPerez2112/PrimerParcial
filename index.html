@@ -10,22 +10,39 @@
   <div class="main-container">
     <div id="sidebar"></div>
     <main>
-      <section class="products">
-        <h2>Productos</h2>
-        <div id="productsGrid"></div>
-      </section>
+     <main>
+  <section class="products">
+    <h2>Productos</h2>
+    <div id="productsGrid"></div>
+  </section>
+  
+<button id="toggleCartBtn" class="cart-toggle">🛒 Ver Carrito</button>
+
+
+<aside id="cartSidebar" class="cart-sidebar">
+  <h2>🛒 Carrito</h2>
+  <ul id="cartItems"></ul>
+  <p><strong>Total:</strong> $<span id="cartTotal">0</span></p>
+  <button id="closeCartBtn" class="close-cart">Cerrar</button>
+</aside>
+
+
+</main>
+
     </main>
   </div>
   <div id="footer"></div>
 
   <template id="productTemplate">
-    <div class="product">
-      <img class="product-img" />
-      <h3 class="product-title"></h3>
-      <p class="product-desc"></p>
-      <span class="product-price"></span>
-    </div>
-  </template>
+  <div class="product">
+    <img class="product-img" />
+    <h3 class="product-title"></h3>
+    <p class="product-desc"></p>
+    <span class="product-price"></span><br>
+    <button class="add-cart-btn">Añadir al carrito</button>
+  </div>
+</template>
+
 
   <script src="js/fragments.js"></script>
   <script src="js/main.js"></script>
