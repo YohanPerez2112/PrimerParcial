@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title class="title">Catalogo</title>
+  <title>Catálogo</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" type="image/png" href="data/logo.png">
 </head>
 <body>
-
+  
   <div id="header"></div>
 
   <div class="main-container">
@@ -33,6 +33,16 @@
       <button class="add-cart-btn">Añadir al carrito</button>
     </div>
   </template>
+ 
+  <button id="toggleCartBtn" class="cart-toggle">🛒 Ver Carrito</button>
+
+  <aside id="cartSidebar" class="cart-sidebar">
+    <h2>Carrito</h2>
+    <ul id="cartItems"></ul>
+    <p><strong>Total:</strong> $<span id="cartTotal">0</span></p>
+    <button id="closeCartBtn" class="close-cart">Cerrar</button>
+    <button id="payBtn" class="pay-btn">Pagar</button>
+  </aside>
 
   <script src="js/fragments.js"></script>
   <script src="js/main.js"></script>
