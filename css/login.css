@@ -41,6 +41,12 @@ body {
     font-weight: 600;
 }
 
+.login-container a{
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
 /*Formulario*/
 #loginForm {
     display: flex;

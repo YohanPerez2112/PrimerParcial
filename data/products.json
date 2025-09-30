@@ -22,7 +22,33 @@
     "price": 60000,
     "image": "data/bolso.jpeg",
     "category": "accesorios"
-  }
+  },
+
+  {
+    "id": 4,
+    "title": "Sandalias",
+    "description": "Ideales para cualquier plan.",
+    "price": 80000,
+    "image": "data/sandalias.jpg",
+    "category": "mujer"
+  },
   
+  {
+    "id": 5,
+    "title": "Chaqueta",
+    "description": "Comoda y a la moda.",
+    "price": 174000,
+    "image": "data/chaqueta.jpeg",
+    "category": "hombre"
+  },
+
+  {
+    "id": 6,
+    "title": "Lentes",
+    "description": "Siempre con estilo.",
+    "price": 74000,
+    "image": "data/lentes.jpg",
+    "category": "accesorios"
+  }
   
 ]
